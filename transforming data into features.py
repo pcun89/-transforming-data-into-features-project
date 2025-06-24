@@ -41,5 +41,5 @@ df['signup_weekday'] = df['signup_date'].dt.weekday
 pca = PCA(n_components=1)
 df['pca_feature'] = pca.fit_transform(df[['height_std', 'weight_std']])
 
-# Final Output
+# Final Output1
 print(df)
